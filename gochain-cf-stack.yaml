@@ -72,7 +72,7 @@ Resources:
   SecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: "Ethereum security group"
+      GroupDescription: "Gochain security group"
       SecurityGroupIngress:
         - CidrIp: "0.0.0.0/0"
           IpProtocol: tcp
