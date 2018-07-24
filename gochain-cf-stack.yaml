@@ -81,7 +81,11 @@ Resources:
         - CidrIp: "0.0.0.0/0"
           IpProtocol: tcp
           FromPort: 30303
-          ToPort: 30303        
+          ToPort: 30303  
+        - CidrIp: "0.0.0.0/0"
+          IpProtocol: tcp
+          FromPort: 8545
+          ToPort: 8545        
   SecurityGroupIngress:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
